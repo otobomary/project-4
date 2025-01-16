@@ -1,0 +1,793 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    /* overflow-x: hidden; */
+}
+
+body{
+   font-family:Arial, Helvetica, sans-serif; 
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    background-color: black;
+    border-bottom-left-radius: 40px;
+     border-bottom-right-radius: 40px;
+
+}
+.navigations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:4rem;
+    margin-bottom: 3rem;
+    background-color: black;
+    align-items: center;
+
+
+}
+.lastnavs{
+    display: none;
+}
+.navigations img{
+    width:160px;
+}
+.navs a{
+    text-decoration: none;
+    color:white;
+    margin:9px;
+    text-decoration: none;
+}
+#home{
+    color:greenyellow;
+}
+#getstart{
+    margin-left: 12rem;
+    padding:12px;
+    border-radius: 150px;
+    font-size: larger;
+    background-color:#8ad756;
+    color:black;
+}
+.hero{
+    background: url(./images/linechart-bg.png);
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    position: relative;
+}
+#iphone{
+    width:80%;
+    /* animation: img2 5s Float; */
+
+}
+.right{
+    position: absolute;
+    color:white;
+    justify-content:end;
+    right:0;
+    text-align: end;
+    font-size:20px;
+    width:430px;
+    height:80px;
+}
+.rightbot{
+    display: flex;
+    flex-direction: row;
+    margin-top:3rem;
+    margin-left:5.5rem;
+    gap:1rem;
+}
+.rightbot img{
+    flex-direction: row;
+    width:60px;
+    border-radius: 150px;
+}
+.rightbot span{
+    display: flex;
+    flex-direction: column; 
+}
+.tradeoption{
+    display: flex;
+    flex-direction: column;
+    margin-top: -13rem;  
+    margin-bottom: 4rem;    
+
+}
+.tradeoption h2{
+    font-size: 3rem;
+    color:white;
+    width:400px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin-top:1.5rem;
+    gap:2rem;
+}
+#login{
+    border-radius: 150px;
+    padding:18px;
+    width:150px;
+    background-color:#99E069;
+    border-style:none;
+
+    
+}
+#open{
+    padding:18px;
+    width:250px;
+    border-radius: 150px;
+    background-color: black;
+    color:white;
+    
+
+
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.opt1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:5px;
+    margin:4rem;
+}
+.opt1 span{
+    justify-content: center;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    width:150px;
+    padding:9px;
+    border-radius: 150px;
+    font-size: small;
+    background-color: whitesmoke;
+
+}
+.opt1 h2{
+    font-size: 3rem;
+}
+.opt2 img{
+     width:80px;
+}
+.opt1 p{
+    font-size: large;
+    width:520px;
+}
+.opt2{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  margin:1rem 6rem;
+}
+.opt2 div{
+    border:2px solid whitesmoke;
+    padding:12px;
+    margin:1rem;
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    font-size: large;
+    color:black;
+}
+.opt2 span{
+    margin-top: 12px;
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    margin:1rem 6rem;
+    gap:7rem;
+}
+#card1b{
+    position: relative;
+    top:-12rem;
+    right:0;
+    
+}
+.maxabout h1{
+    justify-content: center;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    width:100px;
+    padding:9px;
+    border-radius: 150px;
+    font-size: small;
+    background-color: whitesmoke;
+
+}
+.maxabout p{
+    width:600px;
+}
+.maxabout{
+   width:900px;
+   font-size: larger;
+   display: flex;
+   flex-direction: column;
+}
+.maxabout h2{
+    font-size: 2rem;
+    width:600px;
+    margin:1rem 0rem;
+}
+.box2{
+    gap:1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+
+}
+.box2 div{
+    border:3px solid whitesmoke;
+    padding:2rem 3rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.maxabout button{
+    border-radius: 150px;
+    font-size: large;
+    padding:15px;
+    width:200px;
+    background-color: #8ad756;
+    text-decoration: none;
+    border-style:none;
+    
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    margin:0rem 6rem;
+}
+.section4 span:first-child{
+    justify-content: center;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    width:100px;
+    padding:9px;
+    margin-left: 2rem;
+    border-radius: 150px;
+    font-size: small;
+    background-color: whitesmoke;
+
+}
+.section4 .feature1{
+    display: flex;
+    flex-direction: row;
+    gap:8rem;
+    margin:2rem;
+}
+.feature1 h2{
+    display: flex;
+    font-size: 3rem;
+}
+.feature1 p{
+    width:500px;
+}
+.section4 .feature2{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    margin:2rem;
+}
+
+.feature2 .feat2left{
+    bottom:0;
+}
+.feat2left img{
+    width:400px;
+    border-radius: 9px;
+    background-color: #8ad756;
+}
+ .feat2left span{
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+     top:-8rem;
+     padding: 1rem;
+} 
+.feat2right{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/feature-\ bck\ img.png);
+    background-size:cover;
+    border:2px solid whitesmoke;
+    background-color: whitesmoke;
+    width:80%;
+    height:270px;
+    padding:1.5rem;
+    gap:1rem;
+}
+.feat2right h2{
+    width:300px;
+    font-size: x-large;
+}
+.feat2right button{
+    border-radius: 150px;
+    font-size: large;
+    padding:10px;
+    width:180px;
+    margin-top: 3rem;
+    background-color: #8ad756;
+    text-decoration: none;
+    border-style:none;
+
+    
+}
+.feat2right p{
+    width:300px;
+}
+.feature3{
+    display: flex;
+    flex-direction: row;
+    margin:0rem 7rem;
+    gap:2rem;
+}
+.feat3left{
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    border:2px solid whitesmoke;
+    background-color: whitesmoke;
+    padding:2.3rem;
+
+}
+.feat3lefta {
+    display:grid;
+    grid-template-columns: repeat(2,4fr);
+    color:white;
+    gap:2rem;
+    margin: 2rem;
+}
+.feature3 img{
+    width:700px;
+    height:300px;
+}
+.feat3lefta span{
+    background-color: black;
+    padding:13px;
+    border-radius: 150px;
+    text-align: center;
+}
+.feat3lefta span:hover{
+    cursor: pointer;
+    color:green;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 7rem;
+}
+.section5 .accttop{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+} 
+.accttop button{
+    justify-content: center;
+    text-align: center;
+    /* border: 3px solid whitesmoke; */
+    width:150px;
+    padding:9px;
+    border-radius: 150px;
+    border-style:none;
+    font-size: small;
+    background-color: whitesmoke;
+    margin-bottom: 1rem;
+
+}
+.accttop h2{
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    text-align: center;
+    margin-left: 23rem;
+
+}
+.accts{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.accts div{
+    border: 1.5px solid whitesmoke;
+    border-radius: 12px;
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    width:400px;
+    padding:35px;
+}
+.accts  span{
+    display: flex;
+    flex-direction: row;
+    border:2px solid whitesmoke;
+    padding:5px 19px;
+    width:fit-content;
+    border-radius: 150px;
+    margin-left: 1rem;
+    font-size:13px;
+}
+.accts ul{
+    border-top:2.5px solid whitesmoke;
+
+}
+ .accts .proaccount span{
+    display: flex;
+    flex-direction: row;
+
+}
+.accts ul p{
+    display: flex;
+    flex-direction: column;
+    margin:1.5rem;  
+}
+.accts ul p:hover{
+    color:red;
+}
+.vip span{
+    color:red;
+}
+.accts button{
+    padding:15px;
+    width:150px;
+    border-radius: 150px;
+    border-style: none;
+    color:white;
+    background-color:rgb(244, 66, 66);
+    cursor: pointer;
+}
+.accts button:hover{
+    background-color: pink;
+    color:black;
+    font-size: larger;
+    width:250px;
+}
+.section6{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.section6 h1{
+    padding:9px 1rem;
+    width:50px;
+    border-radius: 150px;
+    font-size: small;
+    background-color: whitesmoke;
+    margin-bottom: 1rem;
+    margin-left:43rem;
+}
+.section6 h2{
+    font-size: 3rem;
+    margin:2rem;
+}
+#usersdrop{
+    position: relative;
+}
+.usersdrop span{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    cursor: pointer;
+    border:1px solid rgb(206, 206, 224);
+    padding:20px 1rem;
+    width:600px;
+    margin:1rem;
+    border-radius: 15px;
+    margin-left:25rem;
+    text-align: start;
+    
+}
+.usersdrop span:hover{
+    color:black;
+    background-color:#8ad756;
+
+}
+.dropdown{
+    display: none;
+    position:relative;
+}
+.dropdown.active{
+    display: flex;
+    width:400px;
+    text-align: justify;
+    position: relative;
+}
+.section7{
+    margin:6rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.section7 .contat button{
+    padding:9px 1rem;
+    width:100px;
+    border-style:none;
+    border-radius: 150px;
+    font-size: small;
+    background-color: whitesmoke;    
+}
+.contactbox{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    gap:10px;
+    margin:5rem;
+
+}
+@keyframes contactbox{
+    0%{
+        top:0;
+        transform: translateY(90%);
+    }
+}
+.contatleft img{
+    width:160px;
+    background-color:rgb(28, 13, 13);
+   
+}
+.contatleft{
+    border:2px solid;
+    width:500px;
+    padding:20px;
+    padding-top:3rem;
+    color:white;
+    font-size: large;
+    background-color:rgb(48, 43, 43);
+    animation: contactbox 3s;
+
+}
+.contatleft button{
+    width:200px;
+    padding:16px;
+    margin-top: 1rem;
+    border-radius: 150px;
+    background-color:#8ad756;
+    border-style:none;
+    color:white;
+    font-size: large;
+}
+.contatright{
+    animation: contactbox 2s;
+    border:2px solid;
+    margin-top: 1rem;
+    width:500px;
+    padding:20px;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+}
+.contatright ul span{
+    display: flex;
+    flex-direction: column;
+    margin:5px;
+}
+.contatright img{
+    width:30px;
+}
+.section8{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    height:95vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.section8 div{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+}
+.section8 .section8top{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between; 
+    border-bottom: 1px solid gray;
+    display: flex;
+
+}
+.sect8top{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 6rem; */
+    
+}
+.sect8top h2{
+    width:400px;
+    font-size: xx-large;
+    text-align: start;
+
+}
+.sect8top span{
+    text-align: start;
+    padding-left:2rem;
+}
+.section8top .sect8topbut{
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+}
+.section8top button{
+    border-radius: 150px;
+    padding:20px 3rem;
+    align-self:center;
+}
+.section8 .section8bottom{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+    gap:6rem;
+}
+.section8bottom div{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.section8bottom img{
+    width:180px;
+}
+#regi{
+    background-color: #8ad756;
+    border-style:none;
+    font-size: large;
+}
+#log{
+    background-color: black;
+    color:white;
+}
+.sect8botleft{
+    width:350px;
+}
+.section8bottom a{
+    text-decoration: none;
+    color:#99E069;
+}
+.section8bottom h1{
+    font-size: larger;
+}
+.section8 .last{
+    display: flex;
+    text-align: end;
+}
+
+@media screen and (max-width: 768px){
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+       margin:0;
+       padding:0;
+       font-family:Arial, Helvetica, sans-serif; 
+    }
+    .section1{
+        display:flex;
+        flex-direction: column;
+        width: -webkit-fill-available;
+        z-index: 100vh;
+        font-size: xx-large;
+        padding: 1rem;
+        border-bottom-left-radius: unset;
+        border-bottom-right-radius: unset;
+        height: 100vh;
+    }
+    .hero{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background: unset;
+        height: 100%;
+    }
+    .navs{
+        display: none;
+    }
+    .lastnavs{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .lastnavs a{
+        text-decoration: none;
+    }
+    #getstart{
+        margin-left: unset;
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .heroimg{
+        width: 100%;
+        display: none;
+    }
+    .heroimg img{
+        width: 100%;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        margin:none;
+    }
+    .opt1{
+        font-size: xx-large;
+        margin-right: -55rem;
+    }
+    .opt2 img{
+        width:200px;
+    }
+    .section3{
+        gap:2rem;
+    }
+    .section4{
+        width:100%;
+    }
+    .section4 .feature1{
+        width:1000px;
+        height:200px;
+    }
+    .feature1{
+      font-size: larger;
+    }
+    .right{
+        position: relative;
+        width: 100%;
+        text-align: start;
+        padding-top: 4rem;
+    }
+    .right h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .right h1 span{
+        color: #8ad756;
+    }
+    .right p{
+        font-size: 15px;
+        text-align: start;
+        line-height: 1.5;
+    }
+    .active-users span{
+        font-size: large !important;
+    }
+    .rightbot{
+        margin-top: 1rem;
+        margin-left: unset;
+        align-items: center;
+    }
+    .rightbot img{
+        width: 50px;
+    }
+    .nav-brand{
+        width: 10rem;
+    }
+    .nav-brand img{
+        width: -webkit-fill-available;
+    }
+    .tradeoption{
+        margin-top: unset;
+    }
+    .tradeoption h2{
+        display: none;
+    }
+}
